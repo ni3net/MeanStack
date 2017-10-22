@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Debug Program",
+            "program": "${workspaceRoot}/Server.ts",
+            "cwd": "${workspaceRoot}",
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "skipFiles": [
+                "node_modules/**/*.js"
+            ],
+            "outFiles": [
+                "${workspaceRoot}/dist/**/*.js"
+            ],
+            "stopOnEntry": true,
+            "console": "internalConsole",
+            "restart": true
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceRoot}/dist/Server.js",
+            "outFiles": [
+                "${workspaceRoot}/dist/**/*.js"
+            ]
+
+        }
+    ]
+}

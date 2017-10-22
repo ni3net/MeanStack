@@ -1,0 +1,1 @@
+{"version":3,"file":"TestController.js","sourceRoot":"","sources":["../../controllers/TestController.ts"],"names":[],"mappings":"AAAA,YAAY,CAAC;;AAGA,QAAA,UAAU,GAAG,CAAC,OAAgB,EAAE,QAAkB,EAAE,IAAkB;IAC/E,IAAI,IAAI,GAAG,CAAC,OAAO,EAAE,QAAQ,EAAE,QAAQ,CAAC,CAAC;IACzC,MAAM,CAAC,QAAQ,CAAC,IAAI,CAAC,IAAI,CAAC,CAAC;AAC/B,CAAC,CAAC"}
