@@ -12,5 +12,9 @@ module.exports.controller = function (app) {
         var test = ['nitin', 'rakesh', 'rakesh', 'gunnu', 'gunnu1', 'gunnu1'];
         return response.send(test);
     });
+    app.get('/getCity', (request, response, next) => {
+        var test = ['jaipur','delhi'];
+        return response.send(test);
+    });
 };
 //# sourceMappingURL=TestController.js.map
