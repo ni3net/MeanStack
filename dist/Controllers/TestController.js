@@ -13,7 +13,7 @@ module.exports.controller = function (app) {
         return response.send(test);
     });
     app.get('/getCity', (request, response, next) => {
-        var test = ['jaipur','delhi'];
+        var test = ['jaipur','delhi','jodhpur'];
         return response.send(test);
     });
 };
